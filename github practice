@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-
+    <title>Repository</title>
+      <style>
+        h1 {
+        color: red;
+        font-family: Verdana;
+        }
+      </style>
   </head>
   <body>
-  
+    <h1>Fav comic artists</h1>
+      <a href="https://www.cartoonbrew.com/wp-content/uploads/2015/05/yukoshimizu_nemo-1280x600.jpg"></a>
+        <ul>Winsor McCay:Nemo, from <b>Little Nemo in Slumberland</b></ul>
+      <a href=""></a>
+        <ul>Neil Gaiman: Death, from <b>The Sandman</b></ul>
+      <a href=""></a>
+        <ul>Alan Moore: Evie, from <b> V For Vendetta</b></ul>
+    </body>
+    </html>
