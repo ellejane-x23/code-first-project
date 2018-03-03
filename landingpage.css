@@ -36,11 +36,13 @@ html {
 .navbar-custom .navbar-nav > li > a:focus,
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus,
-.navbar-custom .navbar-nav > .open >a {
+.navbar-custom .navbar-nav > .open >a,
+.navbar-custom .navbar-nav > .active > a {
     text-decoration: none;
     background-color: #022993;
     color:white;
 }
+
 
 #content{
 	text-align: center;
@@ -51,7 +53,7 @@ html {
 }
 
 h1, h3{
-	font-family: Pacifico, Lato, sans-serif;
+	font-family: Pacifico, sans-serif;
 	color:white;
 
 }
