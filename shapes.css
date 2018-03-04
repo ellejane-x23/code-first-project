@@ -29,16 +29,17 @@
     color:white;
 }
 
-.row{
-  padding-top:20px;
+.container .shapes{
   margin: 0 auto;
+  width: 75%;
 }
 
 .circle {
   height: 250px;
   width: 250px;
-  background-color: #555;
+  background-color: blue;
   border-radius: 50%;
+  margin: 50px 10px;
 }
 
 .triangle {
@@ -47,10 +48,12 @@
 	border-top: 125px solid transparent;
 	border-right: 250px solid red;
 	border-bottom: 125px solid transparent;
+  margin: 50px 10px;
 }
 
 .square {
   height: 250px;
   width: 250px;
-  background-color: #555;
+  background-color: green;
+  margin: 50px 10px;
 }
