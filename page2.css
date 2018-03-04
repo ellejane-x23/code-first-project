@@ -1,20 +1,21 @@
 html, body {
   font-family: Pacifico;
+  background-color: #FFF8DC;
 }
 header {
   text-align: center;
-  background: lightgray;
   background-size: cover;
   color: #ffffff;
 }
 h1 {
-  font-size: 50px;
+  font-size: 60px;
   color: darkblue;
-  text-shadow: #white 0px 0px 10px;
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 2s; /* Firefox < 16 */
-      -ms-animation: fadein 2s; /* Internet Explorer */
-       -o-animation: fadein 2s; /* Opera < 12.1 */
+  text-shadow: #white 0px 10px;
+  padding-bottom: 10px;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
           animation: fadein 2s;
 }
 h2 {
@@ -56,13 +57,19 @@ h2 {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-p {
-  text-align: center;
+.continue-btn {
   padding: 0px 10px 0px 10px;
-  padding: 40px;
-  padding: 10px;
-  background: rgba(0,0,0,0.5);
+  font-size: 30px;
+  background-color: darkblue;
 }
+
+.continue-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 img {
   margin: 70px 0px 0px 0px;
   border: 2px solid black;
@@ -85,18 +92,12 @@ li {
   margin: 0 auto;
 }
 .container {
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 5px;
+  padding-bottom: 5px;;
 }
 .triangle {
-  width: 0;
-	height: 0;
-	border-top: 125px solid transparent;
-	border-right: 250px solid red;
-	border-bottom: 125px solid transparent;
-  margin: 50px 10px;
   /* Rotate div */
-    -ms-transform: rotate(90deg); /* IE 9 */
-    -webkit-transform: rotate(90deg); /* Safari 3-8 */
-    transform: rotate(90deg);
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari 3-8 */
+  transform: rotate(90deg);
 }
