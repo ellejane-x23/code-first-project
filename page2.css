@@ -114,9 +114,11 @@ hr{
 }
 
 .shapes{
-  
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px;
+}
+
+.sh{
+  margin:10px;
 }
 
 .bio{
