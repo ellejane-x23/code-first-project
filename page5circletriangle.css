@@ -1,7 +1,9 @@
 
 body {
-   background-image: url("http://www.tokkoro.com/picsup/2881294-beach-blue-coast-palm-trees-landscape-caribbean-sea-sky-watering___landscape-nature-wallpapers.jpg");
+   background-image: url("beach.jpeg");
    background-color: #cccccc;
+   background-size: cover;
+   background-position: center;
 }
 h2{
   color: green;
