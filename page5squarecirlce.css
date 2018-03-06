@@ -2,6 +2,13 @@ body{
   background-color: white;
 }
 
+h2{
+  text-align: center;
+  font-family: Pacifico;
+  padding-top: 40px;
+  font-size: 4em;
+}
+
 .navbar-custom{
   background-color: #001e60;
   border-color: #001e60;
@@ -53,5 +60,17 @@ body{
   height: 400px;
   top: 200px;
   left:200px;
+}
 
+.exhaust img{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  top: 620px;
+}
+
+#car{
+  position: relative;
+  top: -340px;
+  left:60px;
 }
