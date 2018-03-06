@@ -93,7 +93,7 @@ li.nnames {
   padding: 20px 120px;
   padding-top: auto;
 }
-  ul li:last-child {
+ul li:last-child {
   border: 1px solid red;
   color: red;
 }
@@ -105,7 +105,19 @@ ul li:first-child {
   border: 1px solid blue;
   color: blue;
 }
+ul.bio{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
 }
+li.shape-bio{
+  font-family: sans-serif;
+  font-weight: bold;
+  display: inline;
+  padding: 20px 120px;
+  padding-top: auto;
+}
+
 hr{
 	width:600px;
 	border-top: 1px solid #f8f8f8;
