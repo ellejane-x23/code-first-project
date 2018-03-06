@@ -7,6 +7,11 @@ header {
   font-family: Pacifico;
   text-align: center;
   background-size: cover;
+}
+
+.bio{
+  list-style-type: none;
+}
 
 }
 h1 {
@@ -108,10 +113,30 @@ hr{
   transform: rotate(90deg);
 }
 
-.row{
-  border: black solid 1px;
+.shapes{
+  
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.bio{
+  margin-top: 20px;
+  padding:10px;
+}
+
+#blue{
+  border: solid blue 4px;
+  background-color: #9bc3ff;
+}
+
+#green{
+  border:solid green 4px;
+  background-color:#b7f7b7;
+}
+
+#red{
+  border:solid red 4px;
+  background-color:#ffa5a5;
 }
 
 .continue-btn{
