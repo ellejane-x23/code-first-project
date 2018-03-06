@@ -78,7 +78,7 @@ h2 {
 
 img {
   margin: 70px 0px 0px 0px;
-  border: 2px solid black;
+  border: 2px solid yellow;
   border-radius: 20px;
 }
 ul.names {
@@ -88,8 +88,23 @@ ul.names {
 }
 li.nnames {
   font-family: sans-serif;
+  font-weight: bold;
   display: inline;
   padding: 20px 120px;
+  padding-top: auto;
+}
+  ul li:last-child {
+  border: 1px solid red;
+  color: red;
+}
+ul li:nth-child(2) {
+  border: 1px solid green;
+  color: green;
+}
+ul li:first-child {
+  border: 1px solid blue;
+  color: blue;
+}
 }
 hr{
 	width:600px;
@@ -105,9 +120,9 @@ hr{
 }
 
 .row{
-  border: darkblue solid 2px;
-  background-color: white;
-  margin-top:20px;
+  border: black solid 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .continue-btn{
