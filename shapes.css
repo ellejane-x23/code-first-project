@@ -75,6 +75,10 @@ padding-bottom: 50px;
 	border-right: 250px solid red;
 	border-bottom: 125px solid transparent;
   margin: 50px 10px;
+  /* Rotate div */
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari 3-8 */
+  transform: rotate(90deg);
 }
 
 .square {
