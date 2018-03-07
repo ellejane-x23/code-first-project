@@ -1,0 +1,32 @@
+html{
+  background: white;
+}
+
+body{
+  background: white;
+}
+
+#ouch{
+  position: relative;
+  top:-80px;
+  left:18%;
+
+}
+
+.triangle{
+  position:relative;
+  left:200px;
+  top: 20px;
+  border-top: 140px solid transparent;
+	border-right: 400px solid red;
+	border-bottom: 140px solid transparent;
+  top:100px;
+}
+
+.circle{
+  position: relative;
+  width:280px;
+  height:280px;
+  left:270px;
+  top:90px;
+}
