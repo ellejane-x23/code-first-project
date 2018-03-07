@@ -32,8 +32,9 @@ h2{
 
 #ice-cream{
   position: relative;
-  left:15%;
-  top:-190px;
+  width:850px;
+  margin:0 auto;
+  top:-200px;
 }
 
 #wafer img{

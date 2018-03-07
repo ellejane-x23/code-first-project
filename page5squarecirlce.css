@@ -37,7 +37,8 @@ h2{
 
 div#car{
   position: relative;
-  left:15%;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 div#left{
