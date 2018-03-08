@@ -3,7 +3,10 @@ html{
   }
 
   body{
-    background: white;
+      background: url("Antartica.png");
+      background-size: cover;
+      background-position: center;
+    }
   }
 
   #pingu{
