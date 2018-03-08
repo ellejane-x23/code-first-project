@@ -1,16 +1,7 @@
 html, body {
   background-color: #ffffff;
   }
-hr {
-  width:600px;
-	border-top: 2px solid #001E60;
-	border-bottom: 2px solid #001E60;
-}
-header{
-  font-family: Pacifico;
-  
-  background-size: cover;
-}
+
   .navbar-custom{
   background-color: #001e60;
   border-color: #001e60;
@@ -41,28 +32,16 @@ header{
     background-color: #022993;
     color:white;
 }
-h1{
-font-size: 4em;
-line-height: 1.4;
-color: black;
-text-shadow: 0px 4px 3px rgba(1,1,1,0.4),
-      0px 8px 13px rgba(1,1,1,0.3),
-      0px 18px 23px rgba(1,1,1,0.1);
-padding-bottom: 50px;
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 2s; /* Firefox < 16 */
-      -ms-animation: fadein 2s; /* Internet Explorer */
-       -o-animation: fadein 2s; /* Opera < 12.1 */
-        animation: fadein 2s;
-}
-.container .shapes{
-  margin: 0 auto;
-  width: 75%;
+
+
+#circletri{
+  position: relative;
+  margin:0 auto;
 }
 
 .circle {
-  height: 250px;
-  width: 250px;
+  height: 350px;
+  width: 350px;
   background-color: blue;
   border-radius: 50%;
   margin: 50px 10px;
@@ -71,19 +50,12 @@ padding-bottom: 50px;
 .triangle {
   width: 0;
 	height: 0;
-	border-top: 125px solid transparent;
-	border-right: 250px solid red;
-	border-bottom: 125px solid transparent;
+	border-top: 170px solid transparent;
+	border-right: 340px solid red;
+	border-bottom: 170px solid transparent;
   margin: 50px 10px;
   /* Rotate div */
   -ms-transform: rotate(90deg); /* IE 9 */
   -webkit-transform: rotate(90deg); /* Safari 3-8 */
   transform: rotate(90deg);
-}
-
-.square {
-  height: 250px;
-  width: 250px;
-  background-color: green;
-  margin: 50px 10px;
 }
