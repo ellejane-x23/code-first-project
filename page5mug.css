@@ -9,15 +9,16 @@ body{
 }
 
 .circle{
-  width:350px;
-  height:350px;
-
+  width:250px;
+  height:250px;
+  left:370px;
+  top:150px;
 }
 
 .square{
   width:350px;
   height:350px;
   top:90px;
-  left: 640px;
-  top:-310px;
+  left: 500px;
+  top:-210px;
 }
