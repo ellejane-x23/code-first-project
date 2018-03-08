@@ -1,0 +1,22 @@
+body{
+  background: white;
+}
+
+#squcirc{
+  position: relative;
+  width:1200px;
+  margin:0 auto;
+}
+
+.circle{
+  width:350px;
+  height:350px;
+  left: 640px;
+  top:-310px;
+}
+
+.square{
+  width:350px;
+  height:350px;
+  top:90px;
+}
