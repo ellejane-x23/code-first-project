@@ -1,10 +1,8 @@
-html{
-  background: white;
+html body{
+  background: url("mountains.jpeg");
+  padding-bottom: 60px;
 }
 
-body{
-  background: white;
-}
 
 #ouch{
   position: relative;
