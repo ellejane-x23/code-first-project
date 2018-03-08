@@ -1,6 +1,10 @@
 body{
   background: white;
+  background: url("coffeetable.jpg");
+  background-size: cover;
+  background-position: center;
 }
+
 
 #mug{
   position: relative;
@@ -11,14 +15,13 @@ body{
 .circle{
   width:250px;
   height:250px;
-  left:370px;
-  top:150px;
+  top: 100px;
+  left: 370px;
 }
 
 .square{
   width:350px;
   height:350px;
-  top:90px;
   left: 500px;
-  top:-210px;
+  top:-250px;
 }
