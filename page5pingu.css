@@ -1,0 +1,33 @@
+html{
+    background: white;
+  }
+
+  body{
+    background: white;
+  }
+
+  #pingu{
+    position: relative;
+    width:800px;
+    margin:0 auto;
+  }
+
+  .square{
+    position: relative;
+    width:350px;
+    height:350px;
+    top:-125px;
+  }
+
+  .triangle{
+    position: relative;
+    border-top: 175px solid transparent;
+  	border-right: 200px solid red;
+  	border-bottom: 175px solid transparent;
+    left: 530px;
+    transform: rotate(180deg);
+    -ms-transform:rotate(180deg); /* IE 9 */
+    -moz-transform:rotate(180deg); /* Firefox */
+    -webkit-transform:rotate(180deg); /* Safari and Chrome */
+    -o-transform:rotate(180deg); /* Opera */
+  }
