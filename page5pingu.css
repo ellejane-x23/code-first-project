@@ -28,6 +28,7 @@ html{
   	border-right: 200px solid red;
   	border-bottom: 175px solid transparent;
     left: 530px;
+    top: 275px;
     transform: rotate(180deg);
     -ms-transform:rotate(180deg); /* IE 9 */
     -moz-transform:rotate(180deg); /* Firefox */
