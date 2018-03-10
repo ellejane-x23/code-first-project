@@ -1,7 +1,13 @@
+p{
+  font-size: 20px;
+  margin-top: 40px;
+  font-family: sans-serif;
+  width:500px;
+}
 
 body {
    background-image: url("beach.jpeg");
-   
+
    background-size: cover;
    background-position: center;
 }
