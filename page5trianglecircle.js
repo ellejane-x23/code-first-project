@@ -1,14 +1,5 @@
-$(function() {
-
-  var colors = ['red', 'blue', 'green', 'grey'],
-    color;
-
-  $('.triangle').click(function() {
-    var randColor;
-    do {
-      randColor = colors[Math.floor(Math.random() * colors.length)];
-    } while (color == randColor);
-    $('.triangle').css('background-color', randColor);
-    color = randColor;
-  });
+$(document).on('click', function( evt ) {
+    evt.preventDefault();
+    if ( evt.target.id == 'disappear')
+         $('#disappear').fadeToggle();
 });
