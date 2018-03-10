@@ -57,3 +57,13 @@ h2{
   top:220px;
   left:450px;
 }
+
+#center{
+  width:150px;
+  margin:0 auto;
+  position: relative;
+  top:50px;
+  text-align: center;
+  display:block;
+
+}

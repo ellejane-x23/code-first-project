@@ -50,3 +50,13 @@ div#right{
   top:-520px;
   left: 550px;
 }
+
+#center{
+  width:150px;
+  margin:0 auto;
+  position: relative;
+  top:-500px;
+  text-align: center;
+  display:block;
+
+}

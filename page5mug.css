@@ -11,7 +11,7 @@ h2{
 
 #mug{
   position: relative;
-  width:1200px;
+  width:1300px;
   margin:0 auto;
 }
 
@@ -34,4 +34,13 @@ h2{
   position: relative;
   left: 550px;
   top: -850px;
+}
+
+#center{
+  width:150px;
+  margin:0 auto;
+  position: relative;
+  top:-500px;
+  text-align: center;
+  display:block;
 }

@@ -6,7 +6,7 @@ html body{
 
 #house{
   position: relative;
-  width:800px;
+  width:765px;
   margin:0 auto;
   top:-60px;
 }
@@ -58,4 +58,14 @@ html body{
   -moz-animation-name: bounce;
   top:-75px;
   left:155px;
+}
+
+#center{
+  width:150px;
+  margin:0 auto;
+  position: relative;
+  top:-170px;
+  text-align: center;
+  display:block;
+
 }

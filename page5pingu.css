@@ -35,3 +35,13 @@ html{
     -webkit-transform:rotate(180deg); /* Safari and Chrome */
     -o-transform:rotate(180deg); /* Opera */
   }
+
+  #center{
+    width:150px;
+    margin:0 auto;
+    position: relative;
+    top:-500px;
+    text-align: center;
+    display:block;
+
+  }
