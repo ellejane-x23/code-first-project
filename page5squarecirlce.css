@@ -3,6 +3,15 @@ body{
   background-size: cover;
   background-position: center;
 }
+p{
+  font-size: 20px;
+  margin-top: 40px;
+  font-family: sans-serif;
+  width:800px;
+}
+canvas{
+  border: 1px green black;
+}
 
 h2{
   text-align: left;
