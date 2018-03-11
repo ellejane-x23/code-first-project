@@ -1,0 +1,41 @@
+body{
+  background: url("Antartica.png");
+  background-size: cover;
+  background-position: center;
+}
+
+h2{
+  font-family: Pacifico;
+  font-size: 4em;
+  color: black;
+  margin:50px 30px;
+}
+
+.square{
+  position: relative;
+  background: green;
+  width:300px;
+  height:300px;
+  top:100px;
+  left:100px;
+}
+
+.triangle{
+  border-top: 80px solid transparent;
+	border-right: 150px solid red;
+	border-bottom: 50px solid transparent;
+  transform: rotate(180deg);
+  -ms-transform:rotate(180deg); /* IE 9 */
+  -moz-transform:rotate(180deg); /* Firefox */
+  -webkit-transform:rotate(180deg); /* Safari and Chrome */
+  -o-transform:rotate(180deg); /* Opera */
+  position: relative;
+  left:400px;
+  top:-130px;
+}
+
+#pingu{
+  position: relative;
+  width:600px;
+  margin: 10px auto;
+}

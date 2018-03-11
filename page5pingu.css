@@ -12,7 +12,9 @@ html{
   #pingu{
     position: relative;
     width:800px;
-    margin:0 auto;
+    top:-200px;
+
+
   }
 
   .square{
