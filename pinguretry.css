@@ -36,6 +36,12 @@ h2{
 
 #pingu{
   position: relative;
-  width:600px;
-  margin: 10px auto;
+  width:500px;
+  margin: 0px auto;
+}
+
+#center{
+  width:150px;
+  display:block;
+  margin: 0 auto;
 }

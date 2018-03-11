@@ -1,5 +1,3 @@
-$(document).on('click', function( evt ) {
-    evt.preventDefault();
-    if ( evt.target.id == 'disappear')
-         $('#disappear').fadeToggle();
-});
+function disappear(){
+  document.getElementById("disappear").style.display="none";
+}
