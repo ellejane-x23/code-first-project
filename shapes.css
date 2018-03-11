@@ -55,12 +55,16 @@ padding-bottom: 50px;
        -o-animation: fadein 2s; /* Opera < 12.1 */
         animation: fadein 2s;
 }
-.container .shapes{
+
+.shapes{
+  width:1070px;
   margin: 0 auto;
-  width: 75%;
 }
 
+
 .circle {
+  position: relative;
+  left:100px;
   height: 250px;
   width: 250px;
   background-color: blue;
@@ -69,6 +73,9 @@ padding-bottom: 50px;
 }
 
 .triangle {
+  position: relative;
+  left:700px;
+  top: -600px;
   width: 0;
 	height: 0;
 	border-top: 125px solid transparent;
@@ -82,8 +89,19 @@ padding-bottom: 50px;
 }
 
 .square {
+  position: relative;
+  left:400px;
+  top:-300px;
   height: 250px;
   width: 250px;
   background-color: green;
   margin: 50px 10px;
+}
+
+.butt{
+  width:200px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top:-600px;
 }

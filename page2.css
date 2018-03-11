@@ -114,12 +114,11 @@ hr{
 }
 
 .shapes{
-  margin: 20px;
+  width:1000px;
+  margin: 0 auto;
 }
 
-.sh{
-  margin:10px;
-}
+
 
 .bio{
   margin-top: 20px;
@@ -145,4 +144,13 @@ hr{
   font-family: Verdana;
   margin-bottom: 20px;
 
+}
+
+#test{
+  position: relative;
+  top:-600px;
+}
+
+.butt{
+  position: relative;
 }
