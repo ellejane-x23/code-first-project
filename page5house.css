@@ -2,6 +2,12 @@ html body{
   background: url("landscape.jpeg");
 }
 
+p{
+  font-size: 20px;
+  margin-top: 40px;
+  font-family: sans-serif;
+  width:800px;
+}
 
 
 #house{
@@ -68,4 +74,8 @@ html body{
   text-align: center;
   display:block;
 
+}
+
+canvas{
+  border: 1px green black;
 }
