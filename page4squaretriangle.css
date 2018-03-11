@@ -1,0 +1,13 @@
+.triangle{
+  border-top: 175px solid transparent;
+	border-right: 350px solid red;
+	border-bottom: 175px solid transparent;
+  top:-310px;
+}
+
+@media only screen and (max-width: 1060px){
+  .triangle{
+    top:100px;
+    left:170px;
+  }
+}

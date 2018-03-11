@@ -1,4 +1,4 @@
-html, body {
+body {
   background-color: #ffffff;
   }
 
@@ -36,6 +36,7 @@ html, body {
 
 #circletri{
   position: relative;
+  width: 900px;
   margin:0 auto;
 }
 
@@ -44,7 +45,9 @@ html, body {
   width: 350px;
   background-color: blue;
   border-radius: 50%;
-  margin: 50px 10px;
+  position: relative;
+  left:100px;
+  top: 100px;
 }
 
 .triangle {
@@ -53,9 +56,29 @@ html, body {
 	border-top: 170px solid transparent;
 	border-right: 340px solid red;
 	border-bottom: 170px solid transparent;
-  margin: 50px 10px;
+  position: relative;
   /* Rotate div */
   -ms-transform: rotate(90deg); /* IE 9 */
   -webkit-transform: rotate(90deg); /* Safari 3-8 */
   transform: rotate(90deg);
+  top:-240px;
+  left:500px;
+}
+
+#header{
+  font-family: Pacifico;
+  font-size: 4em;
+  color:black;
+  padding: 40px 20px;
+}
+
+@media only screen and (max-width: 1060px){
+  .triangle{
+    top:180px;
+    left:100px;
+  }
+  #circletri{
+    width:550px;
+    margin:0 auto;
+  }
 }

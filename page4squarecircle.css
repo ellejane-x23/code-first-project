@@ -20,3 +20,15 @@ body{
   height:350px;
   top:90px;
 }
+
+@media only screen and (max-width: 1060px){
+  .circle{
+    position: relative;
+    left:180px;
+    top:100px;
+  }
+  #squcirc{
+    width:800px;
+    margin: 0 auto;
+  }
+}
