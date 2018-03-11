@@ -114,7 +114,7 @@ hr{
 }
 
 .shapes{
-  width:1000px;
+  width:1100px;
   margin: 0 auto;
 }
 
@@ -153,4 +153,19 @@ hr{
 
 .butt{
   position: relative;
+  top:-600px;
+}
+
+@media only screen and (max-width: 1060px){
+  #test{
+    position: relative;
+    top:0px;
+  }
+  .shapes{
+    width:620px;
+    margin: 0 auto;
+  }
+  .butt{
+    top:5px;
+  }
 }
