@@ -1,6 +1,6 @@
 $(function() {
 
-  var colors = ['#773e3e', '#fcfccf', '#e6fccf', '#fccfcf'],
+  var colors = ['#773e3e', '#fcfccf', '#98ff98', '#fccfcf'],
     color;
 
   $('.circle').click(function() {
