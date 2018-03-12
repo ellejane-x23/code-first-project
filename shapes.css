@@ -70,7 +70,6 @@ padding-bottom: 50px;
   background-color: blue;
   border-radius: 50%;
   margin: 50px 10px;
-  color: white;
 }
 
 .circle-face {
@@ -89,6 +88,7 @@ padding-bottom: 50px;
   width: 100%;
   font-family: Pacifico;
   font-size: 40px;
+  color: white;
 }
 
 .triangle {
@@ -107,6 +107,37 @@ padding-bottom: 50px;
   transform: rotate(90deg);
 }
 
+.triangle-face {
+  display: none;
+  /* Rotate div */
+  -ms-transform: rotate(-90deg); /* IE 9 */
+  -webkit-transform: rotate(-90deg); /* Safari 3-8 */
+  transform: rotate(-90deg);
+}
+
+.triangle:hover .triangle-face {
+  display: block;
+  position: absolute;
+  top: -70px;
+  left: 120px;
+  /* Rotate div */
+  -ms-transform: rotate(-90deg); /* IE 9 */
+  -webkit-transform: rotate(-90deg); /* Safari 3-8 */
+  transform: rotate(-90deg);
+}
+
+.taylor-name{
+  text-align: center;
+  width: 100%;
+  font-family: Pacifico;
+  font-size: 40px;
+  color: white;
+  /* Rotate div */
+  -ms-transform: rotate(360deg); /* IE 9 */
+  -webkit-transform: rotate(360deg); /* Safari 3-8 */
+  transform: rotate(360deg);
+}
+
 .square {
   position: relative;
   left:400px;
@@ -115,6 +146,25 @@ padding-bottom: 50px;
   width: 250px;
   background-color: green;
   margin: 50px 10px;
+}
+
+.square-face {
+  display: none;
+}
+
+.square:hover .square-face {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
+
+.samie-name{
+  text-align: center;
+  width: 100%;
+  font-family: Pacifico;
+  font-size: 40px;
+  color: white;
 }
 
 @media only screen and (max-width: 1060px){
