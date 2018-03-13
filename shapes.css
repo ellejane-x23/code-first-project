@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #CBD2D0;
   }
 hr {
   width:600px;
@@ -44,7 +44,7 @@ header{
 h1{
 font-size: 4em;
 line-height: 1.4;
-color: #A64253;
+color: #731963;
 text-shadow: 0px 4px 3px rgba(1,1,1,0.4),
       0px 8px 13px rgba(1,1,1,0.3),
       0px 18px 23px rgba(1,1,1,0.1);

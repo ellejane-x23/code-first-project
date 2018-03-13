@@ -1,6 +1,6 @@
 
 html, body {
-  background: linear-gradient(#c4cded, white);
+  background: #F2E9E4;
 }
 
 header {
@@ -17,7 +17,6 @@ header {
 h1 {
   font-size: 4em;
   line-height: 1.4;
-  color: #05265e;
   text-shadow: 0px 4px 3px rgba(1,1,1,0.4),
 				0px 8px 13px rgba(1,1,1,0.3),
 				0px 18px 23px rgba(1,1,1,0.1);
@@ -30,7 +29,7 @@ h1 {
 }
 h2 {
   font-size: 30px;
-  color: #7b95ed;
+  color: #246EB9;
   position: center;
   padding-bottom: 20px;
   -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
