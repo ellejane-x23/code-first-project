@@ -1,0 +1,43 @@
+html body{
+  background: url("coffeetable.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+h2{
+  color: white;
+}
+
+.square{
+  width:360px;
+  height:360px;
+  top: 100px;
+  left: 300px;
+}
+
+.circle{
+  width:280px;
+  height:280px;
+  top:-280px;
+  left:150px;
+  z-index: -1;
+}
+
+.steam img{
+  position: relative;
+  width:250px;
+  height:300px;
+  top:170px;
+  left:400px;
+}
+
+#mug{
+  position: relative;
+  width:1000px;
+  margin: 0 auto;
+  top:-150px;
+}
+
+#center{
+  top:-340px;
+}
