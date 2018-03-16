@@ -1,9 +1,14 @@
-var text = prompt("What should the mug say?");
-var slogan = document.querySelector("#words");
-var mug = document.querySelector(".mug");
+$(function() {
 
-mug.addEventListener("click", changeText);
+  var words = ["No. one Dad", "I love Tea", "Best Boss", "Coffee Life"],
+    word;
 
-function changeText() {
-  slogan.textContent = text;
-}
+  $('#mug').click(function() {
+    var randWord;
+    do {
+      randWord = words[Math.floor(Math.random() * words.length)];
+    } while (word == randWord);
+    $('#words').text(randWord);
+    word = randWord;
+  });
+});

@@ -8,6 +8,10 @@ h2{
   color: white;
 }
 
+p{
+  color: white;
+}
+
 .square{
   width:360px;
   height:360px;
@@ -40,4 +44,9 @@ h2{
 
 #center{
   top:-340px;
+}
+
+#words{
+  font-size: 3.5em;
+  font-family: Mina;
 }
