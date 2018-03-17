@@ -8,10 +8,10 @@ p{
   text-align: left;
   font-size: 1.5em;
   margin-top:20px;
-  -webkit-animation: slowfadein 1.5s;
-    -moz-animation: slowfadein 1.5s;
-    -o-animation: slowfadein 1.5s;
-    animation: slowfadein 1.5s;
+  -webkit-animation: slowfadein 1s;
+    -moz-animation: slowfadein 1s;
+    -o-animation: slowfadein 1s;
+    animation: slowfadein 1s;
     opacity: 1;
 }
 
@@ -20,10 +20,10 @@ p{
 }
 
 .last{
-  -webkit-animation: slowfadein 2.5s;
-    -moz-animation: slowfadein 2.5s;
-    -o-animation: slowfadein 2.5s;
-    animation: slowfadein 2.5s;
+  -webkit-animation: slowfadein 0.5s;
+    -moz-animation: slowfadein 0.5s;
+    -o-animation: slowfadein 0.5s;
+    animation: slowfadein 0.5s;
     opacity: 1;
 }
 
@@ -31,10 +31,10 @@ p{
   width:100%;
   height: auto;
   padding-bottom: 20px;
-  -webkit-animation: slowfadein 2s;
-    -moz-animation: slowfadein 2s;
-    -o-animation: slowfadein 2s;
-    animation: slowfadein 2s;
+  -webkit-animation: slowfadein 1.5s;
+    -moz-animation: slowfadein 1.5s;
+    -o-animation: slowfadein 1.5s;
+    animation: slowfadein 1.5s;
     opacity: 1;
 }
 
