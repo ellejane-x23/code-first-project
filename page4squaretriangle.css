@@ -1,3 +1,11 @@
+html body{
+  background-color: #F2E9E4;
+}
+
+h2{
+  color:#731963;
+}
+
 .triangle{
   border-top: 175px solid transparent;
 	border-right: 350px solid red;
