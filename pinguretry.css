@@ -4,6 +4,10 @@ html body{
   background-position: center;
 }
 
+strong:hover{
+  color: blue;
+}
+
 p{
   color: black;
   font-family: sans-serif;
@@ -16,6 +20,18 @@ h2{
   font-size: 4em;
   color: black;
   margin:50px 30px;
+}
+
+.box {
+  width: 50px;
+  height: 25px;
+  border: solid 5px #000;
+  border-color: #000 transparent transparent transparent;
+  border-radius: 50%/30px 30px 0 0;
+  position: relative;
+  top:180px;
+  left:300px;
+  z-index: 1;
 }
 
 .square{
@@ -42,7 +58,11 @@ h2{
 }
 
 .animate_up{
-  top:-100px;
+  top:-125px;
+}
+
+.a_up{
+  top:-25px;
 }
 
 .hidden{
