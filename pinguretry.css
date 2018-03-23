@@ -1,4 +1,4 @@
-body{
+html body{
   background: url("Antartica.png");
   background-size: cover;
   background-position: center;
@@ -39,6 +39,10 @@ h2{
   position: relative;
   left:400px;
   top:-130px;
+}
+
+.animate_up{
+  top:-100px;
 }
 
 .hidden{
