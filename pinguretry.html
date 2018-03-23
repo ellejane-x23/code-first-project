@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="landingpage.css">
+
 	<link rel="stylesheet" type="text/css" href="pinguretry.css">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
@@ -47,14 +48,19 @@
 </nav>
 
 <h2>Samie became a penguin...</h2>
+<div class="container">
+	<p><strong>...Click here</strong> to feed our penguin a fish</p>
+</div>
 <div id="pingu">
 	<div class="square"></div>
 	<div class="triangle"></div>
+	<div class="hidden" id="fish"><img src="fish.png" alt="fish"></div>
 </div>
 <div id="center"class="container btn-group">
-	<a href="shapes.html"type="button" class="continue-btn btn btn-primary">Back to start!</a>
+	<a href="shapes.html"type="button" id="butt"class="continue-btn btn btn-primary">Back to start!</a>
 </div>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="pingu.js"></script>
 </body>
 </html>
