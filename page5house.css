@@ -1,5 +1,7 @@
 html body{
   background: url("landscape.jpeg");
+  background-size: cover;
+  background-position: center;
 }
 
 p{
