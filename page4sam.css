@@ -54,6 +54,26 @@ h2{
   top: 100px;
 }
 
+
+.circle-face {
+  display: none;
+}
+
+.circle:hover .circle-face {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
+
+.effy-name{
+  text-align: center;
+  width: 100%;
+  font-family: Pacifico;
+  font-size: 40px;
+  color: white;
+}
+
 .triangle {
   width: 0;
 	height: 0;
@@ -67,21 +87,6 @@ h2{
   transform: rotate(90deg);
   top:-300px;
   left: 600px;
-}
-triangle {
-  position: relative;
-  left:700px;
-  top: -600px;
-  width: 0;
-	height: 0;
-	border-top: 125px solid transparent;
-	border-right: 250px solid red;
-	border-bottom: 125px solid transparent;
-  margin: 50px 10px;
-  /* Rotate div */
-  -ms-transform: rotate(90deg); /* IE 9 */
-  -webkit-transform: rotate(90deg); /* Safari 3-8 */
-  transform: rotate(90deg);
 }
 
 .triangle-face {
