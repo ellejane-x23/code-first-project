@@ -19,10 +19,33 @@ h2{
   top:-310px;
 }
 
-.square{
-  width:350px;
-  height:350px;
-  top:90px;
+.square {
+position: relative;
+left: 170px;
+top: 67px;
+height: 300px;
+width: 300px;
+background-color: green;
+margin: 50px 10px;
+}
+
+.square-face {
+  display: none;
+}
+
+.square:hover .square-face {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
+
+.samie-name{
+  text-align: center;
+  width: 100%;
+  font-family: Pacifico;
+  font-size: 40px;
+  color: white;
 }
 
 @media only screen and (max-width: 1060px){
