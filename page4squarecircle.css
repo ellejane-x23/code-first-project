@@ -12,11 +12,33 @@ h2{
   margin:0 auto;
 }
 
-.circle{
-  width:350px;
-  height:350px;
-  left: 640px;
-  top:-310px;
+.circle {
+  position: relative;
+  left:100px;
+  height: 250px;
+  width: 250px;
+  background-color: blue;
+  border-radius: 50%;
+  margin: 50px 10px;
+}
+
+.circle-face {
+  display: none;
+}
+
+.circle:hover .circle-face {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
+
+.effy-name{
+  text-align: center;
+  width: 100%;
+  font-family: Pacifico;
+  font-size: 40px;
+  color: white;
 }
 
 .square {
