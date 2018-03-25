@@ -143,6 +143,34 @@ hr{
   transform: rotate(360deg);
 }
 
+.square {
+  position: relative;
+  left:400px;
+  top:-300px;
+  height: 250px;
+  width: 250px;
+  background-color: green;
+  margin: 50px 10px;
+}
+
+.square-face {
+  display: none;
+}
+
+.square:hover .square-face {
+  display: block;
+  position: absolute;
+  top: -30px;
+  left: 5px;
+}
+
+.samie-name{
+  text-align: center;
+  width: 100%;
+  font-family: Pacifico;
+  font-size: 40px;
+  color: white;
+}
 
 .shapes{
   width:1100px;
