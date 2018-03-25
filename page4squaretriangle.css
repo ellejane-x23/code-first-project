@@ -13,6 +13,37 @@ h2{
   top:-310px;
 }
 
+
+.triangle-face {
+  display: none;
+  /* Rotate div */
+  -ms-transform: rotate(-90deg); /* IE 9 */
+  -webkit-transform: rotate(-90deg); /* Safari 3-8 */
+  transform: rotate(-90deg);
+}
+
+.triangle:hover .triangle-face {
+  display: block;
+  position: absolute;
+  top: -80px;
+  left: 170px;
+  /* Rotate div */
+  -ms-transform: rotate(-90deg); /* IE 9 */
+  -webkit-transform: rotate(-90deg); /* Safari 3-8 */
+  transform: rotate(-90deg);
+}
+
+.taylor-name{
+  text-align: center;
+  width: 100%;
+  font-family: Pacifico;
+  font-size: 40px;
+  color: white;
+  /* Rotate div */
+  -ms-transform: rotate(360deg); /* IE 9 */
+  -webkit-transform: rotate(360deg); /* Safari 3-8 */
+  transform: rotate(360deg);
+}
 @media only screen and (max-width: 1060px){
   .triangle{
     top:100px;
