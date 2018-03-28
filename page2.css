@@ -250,9 +250,18 @@ hr{
     top:0px;
   }
   .shapes{
-    width:620px;
+    width:500px;
     margin: 0 auto;
   }
+
+  .square{
+    top:15px;
+    left:100px;
+  }
+  .triangle{
+    left:100px;
+  }
+
   .butt{
     top:5px;
   }
