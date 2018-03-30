@@ -191,6 +191,7 @@ hr{
   position: absolute;
   top: -20px;
   left: 5px;
+
 }
 
 .effy-name{
@@ -231,6 +232,9 @@ hr{
 .continue-btn{
   font-family: Verdana;
   margin-bottom: 20px;
+  transition: all 0.5s;
+	-webkit-transition:all 0.5s;
+	-moz-transition:all 0.5s;
 
 }
 

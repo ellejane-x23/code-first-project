@@ -73,6 +73,9 @@ h1 {
   padding: 0px 10px 0px 10px;
   font-size: 30px;
   background-color: darkblue;
+  transition: all 0.5s;
+	-webkit-transition:all 0.5s;
+	-moz-transition:all 0.5s;
 }
 
 .continue-container {
