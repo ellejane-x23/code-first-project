@@ -1,3 +1,4 @@
-function disappear(){
-  document.getElementById("disappear").style.display="none";
-}
+$(".triangle").on("click", function(){
+  $(".triangle").fadeOut();
+  $("span").text("Phew!");
+});
