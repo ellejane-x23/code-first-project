@@ -1,4 +1,5 @@
 $(".triangle").on("click", function(){
-  $(".triangle").fadeOut();
-  $("span").text("Phew!");
+  $(".triangle").fadeOut(2000, function(){
+    $("span").text("Phew!");
+  });
 });
