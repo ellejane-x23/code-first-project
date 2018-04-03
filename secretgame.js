@@ -39,9 +39,9 @@ hardBtn.addEventListener("click", function(){
   pickedColor = pickColor();
   colorDisplay.textContent = pickedColor;
   for(var i = 0; i < squares.length; i++){
-      squares[i].style.background = chosen[i];
-      squares[i].style.display = "block";
-    }
+    squares[i].style.background = chosen[i];
+    squares[i].style.display = "block";
+  }
 
 })
 
