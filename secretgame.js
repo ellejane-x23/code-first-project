@@ -89,11 +89,25 @@ function pickColor(){
 }
 
 function generateRandomColors(num){
-  var arr = [];
-  for(var i = 0; i < num; i++){
-    arr.push(randomColor());
+  do{
+    var arr = [];
+    for(var i = 0; i < num; i++){
+      arr.push(randomColor());
+      }
+    }
+  while(checkDupes(arr));
+return arr;
+}
+
+function checkDupes(arr){
+  for(var k = 0; k <= arr.length; k++){
+    for(var j = k; j <= arr.length; j++){
+      if(k != j && arr[k] == arr[j]){
+        return true;
+      }
+    }
   }
-  return arr;
+  return false
 }
 
 function randomColor(){
