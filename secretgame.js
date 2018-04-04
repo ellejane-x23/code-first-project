@@ -93,10 +93,10 @@ function generateRandomColors(num){
     var arr = [];
     for(var i = 0; i < num; i++){
       arr.push(randomColor());
-      }
     }
+  }
   while(checkDupes(arr));
-return arr;
+  return arr;
 }
 
 function checkDupes(arr){
@@ -107,7 +107,7 @@ function checkDupes(arr){
       }
     }
   }
-  return false
+  return false;
 }
 
 function randomColor(){
