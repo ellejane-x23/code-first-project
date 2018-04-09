@@ -19,14 +19,6 @@ p{
   margin-top: 0;
 }
 
-.last{
-  -webkit-animation: slowfadein 0.5s;
-    -moz-animation: slowfadein 0.5s;
-    -o-animation: slowfadein 0.5s;
-    animation: slowfadein 0.5s;
-    opacity: 1;
-}
-
 .expand{
   width:100%;
   height: auto;
@@ -38,26 +30,14 @@ p{
     opacity: 1;
 }
 
-.circle{
-  width:150px;
-  height:150px;
-  top:-200px;
-  left:270px;
+#glyph{
+  text-align: center;
 }
 
-.square{
-  width:150px;
-  height:150px;
-  top:0;
-  left:50px;
-}
-
-.triangle{
-  border-top: 75px solid transparent;
-	border-right: 150px solid red;
-	border-bottom: 75px solid transparent;
-  top:-400px;
-  left: 500px;
+@media only screen and (max-width: 1100px) {
+    #glyph {
+        margin: 50px auto;
+    }
 }
 
 @keyframes slowfadein {
