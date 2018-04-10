@@ -1,1 +1,1 @@
-# code-first-project
+# http://code-first-project.github.io
