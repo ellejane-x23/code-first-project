@@ -2,10 +2,6 @@ body {
   background-color: #F2E9E4;
   }
 
-h2{
-  color:#731963;
-}
-
   .navbar-custom{
   background-color: #001e60;
   border-color: #001e60;
@@ -123,8 +119,13 @@ h2{
 #header{
   font-family: Pacifico;
   font-size: 4em;
-  color:black;
+  color:#731963;
   padding: 40px 20px;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 2s; /* Firefox < 16 */
+      -ms-animation: fadein 2s; /* Internet Explorer */
+       -o-animation: fadein 2s; /* Opera < 12.1 */
+          animation: fadein 2s;
 }
 
 @media only screen and (max-width: 1060px){
