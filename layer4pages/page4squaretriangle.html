@@ -3,13 +3,14 @@
 <html>
 
 <head>
-  <title> Page 5 Mug</title>
+  <title> Pick a partner </title>
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Mina:400,700" rel="stylesheet">
-  <link href="./shapes.css" rel="stylesheet">
+
+  <link href=".../shapes.css" rel="stylesheet">
   <link href="page5squarecirlce.css" rel="stylesheet">
-  <link href="newmug.css" rel="stylesheet">
+  <link href="page4squarecircle.css" rel="stylesheet">
+  <link rel="stylesheet" href="page4squaretriangle.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
@@ -46,18 +47,28 @@
   </div><!-- /.navbar-collapse -->
 </div><!-- /.container-fluid -->
 </nav>
-<h2>Samie became a mug...</h2>
-<p class="container">...every mug needs a slogan! Click on it to choose one.</p>
-<div id="mug">
-  <div class="steam"><img src="steam.png" alt="steam"></div>
-  <div class="square container"><br><br><br><p id="words"></p></div>
-  <div class="circle"></div>
-</div>
-<div id="center"class="container btn-group">
-  <a href="shapes.html"type="button" id="but"class="continue-btn btn btn-primary">Back to start!</a>
-</div>
+<h2>Which shape should Effie meet?</h2>
+<div id="squcirc">
+  <a href="page5squarecirlce.html">
+    <div class="square">
+			<div class="square-face">
+				<img src=".../img/samie-square-eyes.png" width=100%>
+				<p class="samie-name"> Samie </p>
+			</div>
+		</div>
+	</a>
 
+  <a href="page5trianglecircle.html">
+    <div class="triangle">
+			<div class="triangle-face">
+				<img src=".../img/taylor-triangle-eyes.png" width=100%>
+				<p class="taylor-name"> Taylor </p>
+			</div>
+		</div>
+	</a>
 
+</div>
+<a href="secretgame.html"><div class="circle"><p id="text"></p></div></a>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="mug.js"></script>
+<script src="page4squaretriangle.js"></script>
 </body>

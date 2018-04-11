@@ -1,5 +1,5 @@
 html body{
-  background: url("Antartica.png");
+  background: url(.../img/Antartica.png);
   background-size: cover;
   background-position: center;
 }

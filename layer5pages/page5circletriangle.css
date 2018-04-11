@@ -6,7 +6,7 @@ p{
 }
 
 body {
-   background-image: url("beach.jpeg");
+   background-image: url(.../img/beach.jpeg);
 
    background-size: cover;
    background-position: center;
