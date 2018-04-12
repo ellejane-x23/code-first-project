@@ -207,8 +207,6 @@ hr{
   margin: 0 auto;
 }
 
-
-
 .bio{
   margin: 15px auto;
   padding:10px;
@@ -218,16 +216,19 @@ hr{
 #blue{
   border: solid blue 4px;
   background-color: #9bc3ff;
+  border-radius: 10px;
 }
 
 #green{
   border:solid green 4px;
   background-color:#b7f7b7;
+  border-radius: 10px;
 }
 
 #red{
   border:solid red 4px;
   background-color:#ffa5a5;
+  border-radius: 10px;
 }
 
 .continue-btn{
